@@ -1,0 +1,30 @@
+.container-5 {
+  margin: {
+    top: 60px;
+    left: 130px;
+    right: 130px;
+  }
+
+  & .products-head{
+      & .f{
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+      }
+      & .s{
+        width: 201px;
+        height: 44px;
+      }
+  }
+  & .partners{
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+}
+@media (max-width: 1044px) {
+  .container-5{
+    display: none;
+  }
+}

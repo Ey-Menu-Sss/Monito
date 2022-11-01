@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.bosh{
+    width: 100%;
+    height: 1000px;
+    background-color: white
+}
+@import "variables";
+@import "header";
+@import "showcase";
+@import "product-head";
+@import "product-cards";
+@import "explore";
+@import "OurProducts";
+@import "partners";
+@import "adoption";
+@import "knowladge";
+@import "footer";
+@import "animation";
+
+
